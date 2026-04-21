@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Directive</title>
+    <meta
+      name="description"
+      content="Directive is the personal command desk for your agents, approvals, memory, and local authority."
+    />
+    <link rel="icon" type="image/png" href="./assets/directive-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="backdrop backdrop-a" aria-hidden="true"></div>
+    <div class="backdrop backdrop-b" aria-hidden="true"></div>
+    <div class="backdrop backdrop-c" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#top">
+        <img src="./assets/directive-icon.png" alt="" />
+        <span>Directive</span>
+      </a>
+      <nav class="topnav">
+        <a href="#surfaces">Surfaces</a>
+        <a href="#guardian">Guardian</a>
+        <a href="#download">Download</a>
+      </nav>
+      <a class="topbar-link" id="site-repo-link" href="#" target="_blank" rel="noreferrer">Website GitHub</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Private command desk</p>
+          <h1>Your agents can move fast without slipping past you.</h1>
+          <p class="hero-body">
+            Directive is the personal operating surface for agent work: approvals, memory, missions,
+            and timeline in one local-first macOS app.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" id="download-link" href="#">Download for macOS</a>
+            <a class="button button-secondary" id="app-repo-link" href="#" target="_blank" rel="noreferrer">Software GitHub</a>
+          </div>
+          <div class="hero-proof">
+            <span>Local-first</span>
+            <span>Approval-gated</span>
+            <span>Human-scaled</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="poster-glow" aria-hidden="true"></div>
+          <div class="product-poster">
+            <div class="poster-topline">
+              <div class="poster-brand">
+                <img src="./assets/directive-icon.png" alt="" />
+                <span>Directive</span>
+              </div>
+              <span class="poster-status">Live snapshot</span>
+            </div>
+            <div class="poster-grid">
+              <aside class="poster-rail">
+                <span class="rail-label rail-label-active">Desk</span>
+                <span class="rail-label">Approvals</span>
+                <span class="rail-label">Agents</span>
+                <span class="rail-label">Memory</span>
+                <span class="rail-label">Timeline</span>
+              </aside>
+              <section class="poster-main">
+                <p class="eyebrow">Current focus</p>
+                <h2>Keep the approval boundary visible while work keeps moving.</h2>
+                <div class="poster-strips">
+                  <div class="strip">
+                    <span>Pending decisions</span>
+                    <strong>3 live packets</strong>
+                  </div>
+                  <div class="strip">
+                    <span>Priority missions</span>
+                    <strong>2 active</strong>
+                  </div>
+                  <div class="strip">
+                    <span>Escalations</span>
+                    <strong>1 constitutional</strong>
+                  </div>
+                </div>
+              </section>
+              <aside class="poster-side">
+                <p class="eyebrow">Guardian</p>
+                <div class="detail-line">
+                  <span>Lane</span>
+                  <strong>G4</strong>
+                </div>
+                <div class="detail-line">
+                  <span>Evidence</span>
+                  <strong>E4</strong>
+                </div>
+                <div class="detail-line">
+                  <span>Boundary</span>
+                  <strong>B4</strong>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="statement">
+        <div class="statement-kicker">
+          <p class="eyebrow">Why it exists</p>
+          <h2>Most agent software either over-romanticizes autonomy or reduces you to approvals everywhere.</h2>
+        </div>
+        <div class="statement-copy">
+          <p>
+            Directive is the middle path: a thin harness, strong local skills, explicit approval
+            boundaries, and a control surface that still feels like it belongs to one person.
+          </p>
+          <p>
+            It is not a simulated company. It is not boardroom cosplay. It is your desk, your
+            memory, your agents, and your authority.
+          </p>
+        </div>
+      </section>
+
+      <section class="surfaces" id="surfaces">
+        <div class="section-heading">
+          <p class="eyebrow">Core surfaces</p>
+          <h2>Everything the system needs, nothing that turns it into management theater.</h2>
+        </div>
+
+        <div class="surface-list">
+          <article class="surface-row">
+            <div>
+              <p class="eyebrow">Desk</p>
+              <h3>What matters now</h3>
+            </div>
+            <p>Current focus, pending decisions, priority missions, recent agent activity, and escalations.</p>
+          </article>
+          <article class="surface-row">
+            <div>
+              <p class="eyebrow">Approvals</p>
+              <h3>The Guardian workbench</h3>
+            </div>
+            <p>Review packets with lane, evidence, boundary, requested action, execution rule, and rollback context.</p>
+          </article>
+          <article class="surface-row">
+            <div>
+              <p class="eyebrow">Memory + Timeline</p>
+              <h3>Durable context and visible motion</h3>
+            </div>
+            <p>Keep the truths that should persist, then log the decisions and state changes that shaped the work.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="guardian" id="guardian">
+        <div class="section-heading">
+          <p class="eyebrow">Guardian</p>
+          <h2>The approval boundary is explicit, not hand-wavy.</h2>
+        </div>
+
+        <div class="guardian-layout">
+          <div class="lane-list">
+            <div class="lane-row">
+              <span>G0</span>
+              <p>Observe and prepare only.</p>
+            </div>
+            <div class="lane-row">
+              <span>G1</span>
+              <p>Local, reversible, auto-executable with verification.</p>
+            </div>
+            <div class="lane-row">
+              <span>G2</span>
+              <p>Delegated authority with stronger packet evidence.</p>
+            </div>
+            <div class="lane-row">
+              <span>G3</span>
+              <p>Owner pause before consequential external motion.</p>
+            </div>
+            <div class="lane-row">
+              <span>G4</span>
+              <p>Principal-only approval for irreversible or constitutional change.</p>
+            </div>
+          </div>
+
+          <div class="guardian-copy">
+            <p>
+              Directive keeps escalation legible without turning every action into bureaucracy. The
+              system is biased toward momentum on reversible work and visible pause on irreversible work.
+            </p>
+            <p>
+              That means less silent overreach, less manual paralysis, and cleaner recovery when an
+              action crosses the wrong line.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="download" id="download">
+        <div class="section-heading">
+          <p class="eyebrow">Release</p>
+          <h2>Download the current build, inspect the code, or deploy your own copy of the site.</h2>
+        </div>
+
+        <div class="release-panel">
+          <div class="release-meta">
+            <div>
+              <span>Version</span>
+              <strong>0.1.0</strong>
+            </div>
+            <div>
+              <span>Platform</span>
+              <strong>macOS arm64</strong>
+            </div>
+            <div>
+              <span>Artifact</span>
+              <strong>Zip + unpacked app</strong>
+            </div>
+          </div>
+
+          <div class="release-actions">
+            <a class="button button-primary" id="download-link-bottom" href="#">Download Directive</a>
+            <a class="button button-secondary" id="app-repo-link-bottom" href="#" target="_blank" rel="noreferrer">Software GitHub</a>
+            <a class="button button-secondary" id="site-preview-link" href="#" target="_blank" rel="noreferrer">Live site</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./site.js"></script>
+  </body>
+</html>
