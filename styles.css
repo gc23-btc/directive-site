@@ -254,6 +254,12 @@ main {
   border: 1px solid rgba(23, 18, 15, 0.1);
 }
 
+.button-muted {
+  color: rgba(23, 18, 15, 0.74);
+  background: rgba(255, 252, 248, 0.42);
+  border: 1px solid rgba(23, 18, 15, 0.08);
+}
+
 .hero-actions {
   margin-top: 1.3rem;
   flex-wrap: wrap;
