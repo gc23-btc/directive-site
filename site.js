@@ -1,6 +1,6 @@
 const links = {
   appRepo: "https://github.com/gc23-btc/directive-desktop",
-  siteRepo: "#",
+  siteRepo: "https://github.com/gc23-btc/directive-site",
   download: "https://github.com/gc23-btc/directive-desktop/releases/download/v0.1.0/Directive-0.1.0-arm64-mac.zip",
   preview: "#",
 };
